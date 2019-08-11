@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        Sort a Rubric
+// @name        Sort a Rubric (ASU variation)
 // @namespace   https://github.com/jamesjonesmath/canvancement
 // @description This program allows the user to sort rubric criteria
-// @include     https://*.instructure.com/courses/*/rubrics/*
+// @include     https://canvas.asu.edu/courses/*/rubrics/*
 // @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @version     2
 // @grant       none
@@ -15,3 +15,5 @@ function attachRowSorter() {
     items: '> tr'
   });
 }
+
+// Updated 20190604 by Prof. Prescott Perez-Fox
